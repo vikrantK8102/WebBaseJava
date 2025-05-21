@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Calculator</title>
+</head>
+<body>
+    <form action="Myservlet" method="get">
+        <table border="2">
+            <tr>
+                <td>Enter num1:</td>
+                <td><input type="number" name="txtnum1" required></td>
+            </tr>
+            <tr>
+                <td>Enter num2:</td>
+                <td><input type="number" name="txtnum2" required></td>
+            </tr>
+            <tr>
+                <td><b>Result:</b></td>
+                <td><input type="text" name="result" readonly></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" name="operation" value="add">Add</button>
+                    <button type="submit" name="operation" value="sub">Subtract</button>
+                    <button type="submit" name="operation" value="mul">Multiply</button>
+                    <button type="submit" name="operation" value="div">Divide</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
